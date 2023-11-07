@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Utility */
+.d-flex {
+    display: flex;
+}
+.dir-col {
+    flex-direction: column;
+}
+.txt-center {
+    text-align: center;
+}
+.align-center {
+    align-items: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.justify-center {
+    justify-content: center;
+}
