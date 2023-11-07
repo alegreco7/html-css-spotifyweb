@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Colors */
+
 :root {
     --spot-white: #ffffff;
     --spot-black: #000000;
@@ -16,7 +18,9 @@
     --spot-accent: #ABFF2E;
     --spot-player: #383838;
 }
+
 /* Utility */
+
 .d-flex {
     display: flex;
 }
@@ -61,7 +65,9 @@
 .p-b-1 {
     padding-bottom: 1rem;
 }
+
 /* Debug */
+
 .debug #site_header {
     width: 100%;
     background-color: green;
@@ -90,7 +96,9 @@
     background-color: blue;
     height: 15vh;
 }
+
 /* Common */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -117,7 +125,9 @@ a {
     width: 70%;
     margin: auto;
 }
+
 /* Sidebar */
+
 #sidebar {
     background-color: var(--spot-black);
     padding-left: 1.5rem;
@@ -243,3 +253,24 @@ a {
 .install h5:hover {
     color: var(--spot-white);
 }
+
+/*header*/
+
+#site_header {
+    background-color: var(--spot-darkblue);
+    padding: 1rem;
+    height: 10vh;
+    & a {
+        text-align: end;
+    }
+}
+.button a {
+    transition: transform 100ms;
+}
+.button a:hover {
+    transform: scale(1.1)
+}
+
+/*main*/
+
+
