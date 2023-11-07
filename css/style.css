@@ -90,3 +90,30 @@
     background-color: blue;
     height: 15vh;
 }
+/* Common */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+[class^="col-"] {
+    padding: 0.5rem;
+}
+a {
+    text-decoration: none;
+}
+#site_main {
+    overflow-y: auto;
+}
+.typologies p {
+    width: 70%;
+    margin: auto;
+}
