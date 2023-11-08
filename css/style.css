@@ -353,6 +353,13 @@ font-size: 28px;
     background-color: var(--spot-player);
     align-items: center;
 }
+.player-song {
+    width: 40px;
+    margin: 0.5rem;
+}
+.player-song img {
+    width: 100%;
+}
 .middle {
     flex-grow: 2;
 }
