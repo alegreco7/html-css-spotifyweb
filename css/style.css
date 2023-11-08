@@ -306,6 +306,44 @@ color: var(--spot-white);
 padding: 1.5rem 1rem 0.5rem 1rem;
 font-size: 28px;
 }
+.col-2 img {
+    width: 100%;
+}
+.col-2 h4 {
+    color: var(--spot-white);
+    padding: 0.75rem 0 0.5rem 0;
+    font-size: 14px;
+}
+.col-2 h6 {
+    color: var(--spot-lightgrey);
+}
+#site_main h6 {
+    color: var(--spot-lightgrey);
+    font-size: 11px;
+}
+.circle {
+    border-radius: 50%;
+}
+.song {
+    position: relative;
+}
+.song {
+    position: relative;
+}
+.play {
+    position: absolute;
+    color: var(--spot-white);
+    font-size: 50px;
+    bottom: 35%;
+    right: 35%;
+    opacity: 0;
+}
+.song:hover .album {
+    filter: opacity(0.5);
+}
+.song:hover .play {
+    opacity: 1;
+}
 
 
 /*footer*/
