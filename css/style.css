@@ -273,4 +273,28 @@ a {
 
 /*main*/
 
+#site_main {
+    background-color: var(--spot-blue);
+    height: 77.5vh;
+}
+.typologies .container {
+    width: 70%;
+    margin: auto;
+    gap: 2rem;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
 
+/*footer*/
+
+#site_player {
+    height: 12.5vh;
+    background-color: var(--spot-player);
+    align-items: center;
+}
+.middle {
+    flex-grow: 2;
+}
+.left {
+    align-items: center;
+}
