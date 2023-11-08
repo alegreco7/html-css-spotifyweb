@@ -284,6 +284,29 @@ a {
     padding: 1rem 0;
     flex-wrap: wrap;
 }
+& h5 {
+    color: var(--spot-lightgrey);
+}
+.underline {
+position: relative;
+}
+.typologies h5:hover {
+color: var(--spot-white);
+}
+.accent-x {
+height: 2px;
+width: 30px;
+background-color: var(--spot-accent);
+position: absolute;
+left: 30px;
+margin-top: 0.25rem;
+}
+#site_main h1 {
+color: var(--spot-white);
+padding: 1.5rem 1rem 0.5rem 1rem;
+font-size: 28px;
+}
+
 
 /*footer*/
 
