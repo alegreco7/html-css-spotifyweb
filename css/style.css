@@ -485,3 +485,59 @@ background-color: var(--spot-accent);
         width: 90%;
     }
 }
+@media screen and (max-width: 638px) {
+    .col-6-s {
+        width: calc(100% / 12 * 6);
+    }
+    .song-button i {
+        padding: 0.25rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    #sidebar {
+        width: 10vw;
+        padding-left: 1rem;
+        align-items: center;
+    }
+
+    .logo, .menu h5, .user h5, .playlist, .install h5 {
+        display: none;
+    }
+
+    .menu {
+        font-size: 20px;
+    }
+
+    .logo-small {
+        display: block;
+        margin: 0.5rem 0;
+        width: 25px;
+    }
+
+    .home {
+        padding-bottom: 1rem;
+    }
+
+    .sidebar-bottom {
+        align-items: center;
+    }
+
+    .accent-y {
+        display: none;
+    }
+
+    .song-button i {
+        font-size: 16px;
+        padding: 0.25rem;
+    }
+
+    .song-button .fa-circle-play {
+        font-size: 20px;
+    }
+
+    a .fa-circle-play {
+        margin: 0.5rem;
+    }
+
+
+}
