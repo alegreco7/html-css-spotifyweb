@@ -474,3 +474,6 @@ opacity: 1;
 .volume-now:hover {
 background-color: var(--spot-accent);
 }
+
+/*media query*/
+
