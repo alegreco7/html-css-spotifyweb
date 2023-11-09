@@ -477,3 +477,11 @@ background-color: var(--spot-accent);
 
 /*media query*/
 
+@media screen and (max-width: 876px){
+    .col-3-md {
+        width: calc(100% / 12 * 3);
+    }
+    .typologies .container {
+        width: 90%;
+    }
+}
